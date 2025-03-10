@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Number Output</title>
+    New number? reload the page.
+</head>
+<body>
+
+    <h1>Random Number Output</h1>
+    <p id="result">The random number will appear here.</p>
+
+    <script>
+        let randomnumber = Math.random() * 100; // Generate a random number between 0 and 100
+        let result = randomnumber * 86;       
+        document.getElementById("result").textContent = "The result is: " + result;
+    </script>
+
+</body>
+</html>
